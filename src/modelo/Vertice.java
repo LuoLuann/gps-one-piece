@@ -1,6 +1,5 @@
 package modelo;
 
-import  java.util.Collections;
 import java.util.Objects;
 
 public class Vertice  implements Comparable<Vertice>{
@@ -9,7 +8,7 @@ public class Vertice  implements Comparable<Vertice>{
 	private double longPose;
 	private double distancia;
 	private Vertice anterior;
-	
+	//private ArrayList<Vertice> vertices;
 	
 	public Vertice(String nome, String descricao, double longPose) {
 		this.nome = nome;

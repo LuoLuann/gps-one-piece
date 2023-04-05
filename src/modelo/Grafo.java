@@ -13,6 +13,10 @@ public class Grafo {
 		this.vertices = new ArrayList<>();
 	}
 	
+	public Grafo (ArrayList<Aresta> arestas, ArrayList<Vertice> vertices) {
+		this.arestas = arestas;
+		this.vertices = vertices;
+	}
 	
 	public void addVertice(Vertice v) {
 		vertices.add(v);

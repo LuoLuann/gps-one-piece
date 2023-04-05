@@ -33,9 +33,10 @@ public class Dijkstra {
 		public void inicializarGrafo(Grafo grafo, Vertice origem) {
 			caminhoMinimo.add(origem);
 			for(Vertice v : grafo.getVertices()) {
-				if(!v.equals(origem)) {
+				if(!v.equals(origem))
 					v.setDistancia(Double.POSITIVE_INFINITY);
-				}
+				else
+					v.setDistancia(0);
 				this.naoPercorridos.add(v);
 			}
 			Collections.sort(naoPercorridos);

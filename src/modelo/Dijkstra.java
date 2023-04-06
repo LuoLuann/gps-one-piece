@@ -125,13 +125,4 @@ public class Dijkstra {
 		public void setDistanciaMinima(double distanciaMinima) {
 			this.distanciaMinima = distanciaMinima;
 		}
-
-//		public Map<Vertice, Double> getPercorridos() {
-//			return percorridos;
-//		}
-//
-//		public void setPercorridos(Map<Vertice, Double> percorridos) {
-//			this.percorridos = percorridos;
-//		}
-		
 }

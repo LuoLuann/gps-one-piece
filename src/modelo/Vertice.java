@@ -85,4 +85,9 @@ public class Vertice  implements Comparable<Vertice>{
 	public int compareTo(Vertice o) {
 		return Double.compare(distancia, o.getDistancia());
 	}
+	@Override
+	public String toString() {
+		return "Vertice [nome=" + nome + ", descricao=" + descricao + ", longPose=" + longPose + ", distancia="
+				+ distancia + ", anterior=" + anterior + "]";
+	}
 }

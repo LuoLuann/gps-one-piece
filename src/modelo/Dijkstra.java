@@ -30,7 +30,7 @@ public class Dijkstra {
 			inicializarGrafo(g, origem);
 		}
 		
-		public void inicializarGrafo(Grafo grafo, Vertice origem) {
+		private void inicializarGrafo(Grafo grafo, Vertice origem) {
 			caminhoMinimo.add(origem);
 			for(Vertice v : grafo.getVertices()) {
 				if(!v.equals(origem))
@@ -42,29 +42,41 @@ public class Dijkstra {
 			Collections.sort(naoPercorridos);
 		}
 		
-		public void processaCaminho() {
+		public ArrayList<Vertice> processarCaminho() {
+			inicializarGrafo(grafo, origem);
+//			System.out.println(origem);
+//			System.out.println("destino: " + destino);
 			PriorityQueue<Vertice> filaVertice = new PriorityQueue<>();
 			filaVertice.add(origem);
+			
+			
 			while(!filaVertice.isEmpty()) {
 				Vertice atual = filaVertice.poll();		
+				//System.out.println(atual);
 				//preicisamos distancia minima do vertice atual + seu long pose
 				//e da distancia de cada um dos vizinhso com seus respectivos long poses
-				//para add a lista de prioridade
+				//para add a lista de priorida
 				for(Aresta aresta : grafo.vizinhos(atual)) {
+					
 					Vertice vizinho = aresta.adjacencia(atual);
-					double distanciaTemp  = vizinho.getDistancia() + atual.getLongPose() + atual.getDistancia();
+					//System.out.println(vizinho);
+					double distanciaTemp  = aresta.getDistancia() + atual.getLongPose() + atual.getDistancia();
+					
 					//distanciaMinima+= distanciaTemp;
 					if (distanciaTemp < vizinho.getDistancia()) {
+						//System.out.println(atual);
 						filaVertice.remove(vizinho);
 						vizinho.setDistancia(distanciaTemp);
 						vizinho.setAnterior(atual);
 						filaVertice.add(vizinho);
+						//System.out.println(vizinho);
 					}
 				}
 			}
+			return getMenorCaminho();
 		}
 		//pegar os menores caminhos
-		public ArrayList<Vertice> getMenorCaminho(Vertice destino) {
+		private ArrayList<Vertice> getMenorCaminho() {
 			ArrayList<Vertice> listaVertice = new ArrayList<Vertice>();
 			
 			for(Vertice v = destino; v != null; v = v.getAnterior())

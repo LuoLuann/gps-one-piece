@@ -17,7 +17,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		//Arquivo de Entrada - Vertices
 		FileInputStream entradaVertices = new FileInputStream(
-				new File("C:\\Users\\karlo\\Documents\\workspace-spring-tool-suite-4-4.15.1.RELEASE\\gps-one-piece\\src\\br\\edu\\aed2\\modelo\\vertices.txt"));
+				new File("C:\\Users\\karlo\\Documents\\Github\\gps-one-piece\\src\\modelo\\vertices.txt"));
 		
 		try (Scanner lerEntradaVertices = new Scanner(entradaVertices, "UTF-8")) {
 			List<Vertice> vertices = new ArrayList<Vertice>();
@@ -42,7 +42,7 @@ public class Main {
 			
 			//Arquivo de Entrada - Arestas
 			FileInputStream entradaArestas = new FileInputStream(
-					new File("C:\\Users\\karlo\\Documents\\workspace-spring-tool-suite-4-4.15.1.RELEASE\\gps-one-piece\\src\\br\\edu\\aed2\\modelo\\arestas.txt"));
+					new File("C:\\Users\\karlo\\Documents\\Github\\gps-one-piece\\src\\modelo\\arestas.txt"));
 			
 			try (Scanner lerEntradaArestas = new Scanner(entradaArestas, "UTF-8")) {
 				List<Aresta> arestas = new ArrayList<Aresta>();
@@ -78,7 +78,7 @@ public class Main {
 				
 				//Arquivo de Entrada - Dijkstra
 				FileInputStream entradaDijkstra = new FileInputStream(
-						new File("C:\\Users\\karlo\\Documents\\workspace-spring-tool-suite-4-4.15.1.RELEASE\\gps-one-piece\\src\\br\\edu\\aed2\\modelo\\dijkstra.txt"));
+						new File("C:\\Users\\karlo\\Documents\\Github\\gps-one-piece\\src\\modelo\\dijkstra.txt"));
 				
 				try (Scanner lerEntradaDijkstra = new Scanner(entradaDijkstra, "UTF-8")) {
 					List<Dijkstra> dijkstras = new ArrayList<Dijkstra>();

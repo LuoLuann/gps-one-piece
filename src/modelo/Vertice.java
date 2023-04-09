@@ -8,15 +8,20 @@ public class Vertice  implements Comparable<Vertice>{
 	private double longPose;
 	private double distancia;
 	private Vertice anterior;
+       private int id;
 	//private ArrayList<Vertice> vertices;
 	
-	public Vertice(String nome, String descricao, double longPose) {
+	public Vertice(String nome, String descricao, double longPose, int id) {
 		this.nome = nome;
 		this.descricao = descricao;
 		this.longPose = longPose;
 		this.distancia = 0.;
 		this.anterior = null;
+               this.id = id;
 	}
+
+    public Vertice() {
+    }
 
 	public double getDistancia() {
 		return distancia;
@@ -61,6 +66,13 @@ public class Vertice  implements Comparable<Vertice>{
 	public void setAnterior(Vertice anterior) {
 		this.anterior = anterior;
 	}
+        public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	@Override
 	public int hashCode() {
@@ -85,9 +97,10 @@ public class Vertice  implements Comparable<Vertice>{
 	public int compareTo(Vertice o) {
 		return Double.compare(distancia, o.getDistancia());
 	}
-	@Override
-	public String toString() {
-		return "Vertice [nome=" + nome + ", descricao=" + descricao + ", longPose=" + longPose + ", distancia="
-				+ distancia + ", anterior=" + anterior + "]";
-	}
+
+    @Override
+    public String toString() {
+        return "Vertice{" + "nome=" + nome + ", descricao=" + descricao + ", longPose=" + longPose + ", distancia=" + distancia + ", anterior=" + anterior + ", id=" + id + '}';
+    }
+	
 }

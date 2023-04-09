@@ -13,7 +13,6 @@ public class Dijkstra {
 		private Vertice destino;
 		private ArrayList<Vertice> caminhoMinimo;
 		private double distanciaMinima;
-		//private Map<Vertice, Double> percorridos;
 		private List<Vertice> naoPercorridos;
 		
 		

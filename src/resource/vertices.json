@@ -1,0 +1,56 @@
+[
+    {
+        "nome" : "Fenda do biquini",
+        "descricao" : "Fundo do mar que tem fogo embaixo d'água",
+        "longPose" : 30,
+        "id" : 0
+    },
+    {
+        "nome" : "Ilha açucar",
+        "descricao" : "A bolha não chega",
+        "longPose" : 7,
+        "id": 1
+    },
+    {
+        "nome" : "Vila do chavez",
+        "descricao" : "O cortiço",
+        "longPose" : 15,
+        "id": 2
+    },
+    {
+        "nome" : "Lumpalandia",
+        "descricao": "Capital dos lumpalampas",
+        "longPose": 25,
+        "id": 3
+    },
+    {
+        "nome" : "Estrela  da morte",
+        "descricao": "um buraco eh sua destruicao",
+        "longPose": 20,
+        "id": 4
+    },
+    {
+        "nome" : "O lugar do caralho",
+        "descricao": "Caralhinhos nascem diariamente",
+        "longPose": 23,
+        "id": 5
+    },
+    {
+        "nome" : "Drogolandia",
+        "descricao": "lugar de drogas que thiago gosta",
+        "longPose": 12,
+        "id": 6
+    },
+    {
+        "nome" : "straybery fields forever",
+        "descricao": "malucos dancam embaixo de uma arvore",
+        "longPose": 30,
+        "id": 7
+    },
+    {
+        "nome": "buraco negro",
+        "descricao": "tudo entra mas nada sai",
+        "longPose": 15,
+        "id" : 8
+    }
+]

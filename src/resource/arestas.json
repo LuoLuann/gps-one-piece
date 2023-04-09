@@ -1,0 +1,62 @@
+[
+    {
+        "origem": 0,
+        "destino": 1,
+        "distancia": 3
+    },
+    {
+        "origem": 1,
+        "destino": 2,
+        "distancia": 7
+    },
+    {
+        "origem": 4,
+        "destino": 5,
+        "distancia": 2
+    },
+    {
+        "origem": 5,
+        "destino": 2,
+        "distancia": 10
+    },
+    {
+        "origem": 3,
+        "destino": 5,
+        "distancia": 5
+    },
+    {
+        "origem": 7,
+        "destino": 3,
+        "distancia": 1
+    },
+    {
+        "origem": 1,
+        "destino": 3,
+        "distancia": 7
+    },
+    {
+        "origem": 5,
+        "destino": 8,
+        "distancia": 3
+    },
+    {
+        "origem": 6,
+        "destino": 0,
+        "distancia": 11
+    },
+    {
+        "origem": 6,
+        "destino": 8,
+        "distancia": 1
+    },
+    {
+        "origem": 6,
+        "destino": 4,
+        "distancia": 7
+    },
+    {
+        "origem": 0,
+        "destino": 7,
+        "distancia": 10
+    }
+]

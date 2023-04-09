@@ -6,6 +6,7 @@ public class Aresta  implements Comparable<Aresta>{
 	private Vertice v1;
 	private Vertice v2;
 	private double distancia;
+       
 	//private double distanciaMinima = Double.POSITIVE_INFINITY;
 	
 	public Aresta() {

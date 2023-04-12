@@ -16,12 +16,16 @@ import repositorio.Repositorio;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-		Repositorio repositorio = new Repositorio();
-               Grafo g = repositorio.lerArquivos();
-               Dijkstra d = new Dijkstra(g, g.getVertices().get(0), g.getVertices().get(2));
+		//Repositorio repositorio = new Repositorio();
+               //Grafo g = repositorio.lerArquivos();
+               //Dijkstra d = new Dijkstra(g, g.getVertices().get(0), g.getVertices().get(5));
                
-               for(Vertice v: d.processarCaminho()){
-                   System.out.println(v);
-               }
+//               for(Vertice v: d.processarCaminho()){
+//                   System.out.println(v);
+//               }
+               
+               View view = new View();
+               
+               view.menuPrincipal();
         }
 }

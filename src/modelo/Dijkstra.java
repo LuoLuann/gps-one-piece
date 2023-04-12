@@ -15,7 +15,13 @@ public class Dijkstra {
 		private double distanciaMinima;
 		private List<Vertice> naoPercorridos;
 		
-		
+		public Dijkstra() {
+                }
+               public Dijkstra(Grafo g, Vertice origem) {
+                   this.grafo = g;
+                   this.origem = origem;
+               }
+                
 		public Dijkstra(Grafo g, Vertice origem, Vertice destino) {
 			this.grafo = g;
 			this.origem = origem;
@@ -52,8 +58,8 @@ public class Dijkstra {
 			while(!filaVertice.isEmpty()) {
 				Vertice atual = filaVertice.poll();		
 				//System.out.println(atual);
-				//preicisamos distancia minima do vertice atual + seu long pose
-				//e da distancia de cada um dos vizinhso com seus respectivos long poses
+				//preicisamos distancia minima do vertice atual + seu log pose
+				//e da distancia de cada um dos vizinhso com seus respectivos log poses
 				//para add a lista de priorida
 				for(Aresta aresta : grafo.vizinhos(atual)) {
 					
@@ -65,7 +71,9 @@ public class Dijkstra {
 					if (distanciaTemp < vizinho.getDistancia()) {
 						//System.out.println(atual);
 						filaVertice.remove(vizinho);
-						vizinho.setDistancia(distanciaTemp);
+						if(!vizinho.isMarinha()) {
+							vizinho.setDistancia(distanciaTemp);
+						}
 						vizinho.setAnterior(atual);
 						filaVertice.add(vizinho);
 						//System.out.println(vizinho);

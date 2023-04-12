@@ -33,13 +33,15 @@ public class VerticeTypeAdapter extends TypeAdapter<Vertice> {
             vertice.setDescricao(in.nextString());
             //System.out.println(vertice.getDescricao());  
             break;
-       case "longPose":
+       case "logPose":
             vertice.setLongPose(in.nextDouble());
             //System.out.println(vertice.getDescricao());  
             break;
        case "id":
            vertice.setId(in.nextInt());
            break;
+       case "marinha":
+    	   vertice.setMarinha(in.nextString().equals("sim"));
       }
     }
     in.endObject();

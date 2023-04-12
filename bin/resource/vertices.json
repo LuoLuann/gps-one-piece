@@ -1,398 +1,398 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "nome": "Ilha Dawn",
         "descricao": "Ilha natal de Luffy! Ponto de partida de sua jornada para a pirataria",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 2,
+        "id": 1,
         "nome": "Shell Town",
         "descricao": "Base da Marinha",
         "marinha": "sim",
         "logPose": 0.0
     },
     {
-        "id": 3,
+        "id": 2,
         "nome": "Goat Island",
         "descricao": "Base da Alvida",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 4,
+        "id": 3,
         "nome": "Tequila Wolf",
         "descricao": "Local de construção de uma ponte em massa a pedido do Governo Mundial",
         "marinha": "sim",
         "logPose": 0.0
     },
     {
-        "id": 5,
+        "id": 4,
         "nome": "Orange Town",
         "descricao": "Ilha destruída pela ocupação do bando de piratas de Buggy",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 6,
+        "id": 5,
         "nome": "Ilha de Animais Raros",
         "descricao": "Ilha povoada por animais híbridos bizarros",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 7,
+        "id": 6,
         "nome": "Vila Syrup",
         "descricao": "Terra natal de Usopp localizada nas Ilhas Gecko",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 8,
+        "id": 7,
         "nome": "Ilha Mirrorball",
         "descricao": "Ilha localizada no East Blue",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 9,
+        "id": 8,
         "nome": "Cozia",
         "descricao": "Ilha que foi atacada pela Germa 66 há 13 anos",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 10,
+        "id": 9,
         "nome": "Arlong Park",
         "descricao": "Base de operações dos Piratas Arlong",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 11,
+        "id": 10,
         "nome": "Vila Cocoyasi",
         "descricao": "Aldeia onde Nami nasceu",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 12,
+        "id": 11,
         "nome": "Loguetown",
         "descricao": "Cidade portuária das Ilhas Polestar",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 13,
+        "id": 12,
         "nome": "Ilha Kenzan",
         "descricao": "Parece ser a terra natal da Tribo dos Braços Longos",
         "marinha": "nao",
         "logPose": 0.8
     },
     {
-        "id": 14,
+        "id": 13,
         "nome": "Ilha Nakamura",
         "descricao": "Um reino que contém uma tribo satânica conduzida por Pekkori",
         "marinha": "nao",
         "logPose": 5.0
     },
     {
-        "id": 15,
+        "id": 14,
         "nome": "Arquipelago Sabaody",
         "descricao": "Ilha final no Paraíso, perto da Red Line",
         "marinha": "nao",
         "logPose": 0
     },
     {
-        "id": 16,
+        "id": 15,
         "nome": "Ilha dos Homens-Peixe",
         "descricao": "Lar dos homens-peixe e sereianos. Serve como um portal subaquático para o Novo Mundo",
         "marinha": "nao",
         "logPose": 0.5
     },
     {
-        "id": 17,
+        "id": 16,
         "nome": "Ilha Kuraigana",
         "descricao": "Um lugar escuro e sombrio em algum lugar na Grand Line",
         "marinha": "nao",
         "logPose": 13
     },
     {
-        "id": 18,
+        "id": 17,
         "nome": "Marineford",
         "descricao": "Base de operações para o Quartel General da Marinha",
         "marinha": "sim",
         "logPose": 0.6
     },
     {
-        "id": 19,
+        "id": 18,
         "nome": "Impel Down",
         "descricao": "Prisão Submarina controlada pelo governo",
         "marinha": "sim",
         "logPose": 0.25
     },
     {
-        "id": 20,
+        "id": 19,
         "nome": "Enies Lobby",
         "descricao": "É um reduto controlado pelo governo em conjunto com Marineford e Impel Down",
         "marinha": "sim",
         "logPose": 0
     },
     {
-        "id": 21,
+        "id": 20,
         "nome": "Amazon Lily",
         "descricao": "Império localizado na Ilha das Mulheres",
         "marinha": "nao",
         "logPose": 2
     },
     {
-        "id": 22,
+        "id": 21,
         "nome": "San Faldo",
         "descricao": "É uma localidade ligada à Water 7 via Trem Marítimo",
         "marinha": "nao",
         "logPose": 0
     },
     {
-        "id": 23,
+        "id": 22,
         "nome": "Water 7",
         "descricao": "É uma cidade conhecida por seus construtores navais",
         "marinha": "nao",
         "logPose": 7
     },
     {
-        "id": 24,
+        "id": 23,
         "nome": "Ilha Banaro",
         "descricao": "Lugar onde Ace foi derrotado e entregue aos Marinheiros",
         "marinha": "nao",
         "logPose": 1
     },
     {
-        "id": 25,
+        "id": 24,
         "nome": "Ilha Momoiro",
         "descricao": "Onde aqueles com um coração de uma donzela reúnem-se",
         "marinha": "nao",
         "logPose": 24.0
     },
     {
-        "id": 26,
+        "id": 25,
         "nome": "G-2",
         "descricao": "Base da Marinha",
         "marinha": "sim",
         "logPose": 1.0
     },
     {
-        "id": 27,
+        "id": 26,
         "nome": "Long Ring Long Land",
         "descricao": "Ilha com pedaços de terra interligados num formato anelar",
         "marinha": "nao",
         "logPose": 0.1
     },
     {
-        "id": 28,
+        "id": 27,
         "nome": "Jaya",
         "descricao": "Ilha que uma vez tinha a forma de um crânio",
         "marinha": "nao",
         "logPose": 4.0
     },
     {
-        "id": 29,
+        "id": 28,
         "nome": "Ilha Sandy",
         "descricao": "Reino de Alabasta. Praticamente no meio da Grand Line",
         "marinha": "nao",
         "logPose": 0.5
     },
     {
-        "id": 30,
+        "id": 29,
         "nome": "Ilha Drum",
         "descricao": "Local de Nascimento de Tony Tony Chopper",
         "marinha": "nao",
         "logPose": 3.0
     },
     {
-        "id": 31,
+        "id": 30,
         "nome": "Ilha Kyuka",
         "descricao": "Ilha do Feriado muito perto de Little Garden",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 32,
+        "id": 31,
         "nome": "Ilha Cactus",
         "descricao": "Ilha com várias montanhas em forma de cactos",
         "marinha": "nao",
         "logPose": 0.5
     },
     {
-        "id": 33,
+        "id": 32,
         "nome": "Little Garden",
         "descricao": "Para os seus habitantes a ilha não passava de um pequeno jardim",
         "marinha": "nao",
         "logPose": 365.0
     },
     {
-        "id": 34,
+        "id": 33,
         "nome": "Ilha Karakuri",
         "descricao": "Ilha de inverno na qual se encontra o Reino Futurista de Barujimoa",
         "marinha": "nao",
         "logPose": 10.0
     },
     {
-        "id": 35,
+        "id": 34,
         "nome": "Ilha Nanimonai",
         "descricao": "Ilha desabitada pouco antes de Alabasta",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 36,
+        "id": 35,
         "nome": "Ilha Foolshout",
         "descricao": "Ilha onde os Piratas do Sol foram emboscados",
         "marinha": "nao",
         "logPose": 0.3
     },
     {
-        "id": 37,
+        "id": 36,
         "nome": "G-5",
         "descricao": "Ramo da Marinha",
         "marinha": "sim",
         "logPose": 0.08
     },
     {
-        "id": 38,
+        "id": 37,
         "nome": "Ilha Risky Red",
         "descricao": "Ilha em que uma das agulhas do Log Pose aponta depois de sair da Ilha dos Homens-Peixe",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 39,
+        "id": 38,
         "nome": "Ilha Mystoria",
         "descricao": "Outra das 3 ilhas em primeira posição no Novo Mundo",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 40,
+        "id": 39,
         "nome": "Ilha Raijin",
         "descricao": "Uma das três ilhas iniciais do Novo Mundo",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 41,
+        "id": 40,
         "nome": "Punk Hazard",
         "descricao": "Ilha cercada por um mar de fogo e a entrada é parafusada com um sinal de perigo",
         "marinha": "nao",
         "logPose": 0.12
     },
     {
-        "id": 42,
+        "id": 41,
         "nome": "Foodvalten",
         "descricao": "Em algum momento no passado, foi uma das muitas ilhas protegidas por Barba Branca",
         "marinha": "nao",
         "logPose": 5.0
     },
     {
-        "id": 43,
+        "id": 42,
         "nome": "Reino Prodence",
         "descricao": "Um reino no Novo Mundo liderado por Elizabello II",
         "marinha": "nao",
         "logPose": 0.5
     },
     {
-        "id": 44,
+        "id": 43,
         "nome": "Dressrosa",
         "descricao": "Ilha e um dos vinte reinos que fundaram o Governo Mundial",
         "marinha": "nao",
         "logPose": 0.04
     },
     {
-        "id": 45,
+        "id": 44,
         "nome": "Green Bit",
         "descricao": "Ilha gigantesca e aparentemente desabitada no Novo Mundo",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 46,
+        "id": 45,
         "nome": "Ilha Applenine",
         "descricao": "Ilha no Novo Mundo e uma das três ilhas vizinhas do país de Dressrosa",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 47,
+        "id": 46,
         "nome": "Ilha Karai Bari",
         "descricao": "Atualmente ocupada pela Buggy's Delivery",
         "marinha": "nao",
         "logPose": 0.02
     },
     {
-        "id": 48,
+        "id": 47,
         "nome": "Reino Majiatsuka",
         "descricao": "País de que Rolling Logan veio",
         "marinha": "nao",
         "logPose": 4.5
     },
     {
-        "id": 49,
+        "id": 48,
         "nome": "Reino Mogaro",
         "descricao": "Uma nação no Novo Mundo de onde os Irmãos Funk vieram",
         "marinha": "nao",
         "logPose": 1.0
     },
     {
-        "id": 50,
+        "id": 49,
         "nome": "Zou",
         "descricao": "Ilha situada nas costas de um enorme elefante com cerca de 1000 anos de idade",
         "marinha": "nao",
         "logPose": 0.0
     },
     {
-        "id": 51,
+        "id": 50,
         "nome": "Ilha Whole Cake",
         "descricao": "Base de operações dos Piratas da Big Mom",
         "marinha": "nao",
         "logPose": 3.0
     },
     {
-        "id": 52,
+        "id": 51,
         "nome": "País de Wano",
         "descricao": "Um país poderoso que não é afiliado com o Governo Mundial",
         "marinha": "nao",
         "logPose": 9.0
     },
     {
-        "id": 53,
+        "id": 52,
         "nome": "Ilha Yukiryu",
         "descricao": "Uma das várias ilhas em que Shanks e sua tripulação estiveram",
         "marinha": "nao",
         "logPose": 12.0
     },
     {
-        "id": 54,
+        "id": 53,
         "nome": "Reino Doerena",
         "descricao": "Um Reino no Novo Mundo",
         "marinha": "nao",
         "logPose": 0.15
     },
     {
-        "id": 55,
+        "id": 54,
         "nome": "Baltigo",
         "descricao": "Base do Exército Revolucionário",
         "marinha": "nao",
         "logPose": 75.0
     },
     {
-        "id": 56,
+        "id": 55,
         "nome": "Elbaf",
         "descricao": "Reino habitado por gigantes",
         "marinha": "nao",
         "logPose": 165.0
     },
     {
-        "id": 57,
+        "id": 56,
         "nome": "Laugh Tale",
         "descricao": "Ilha no final do Novo Mundo que supostamente guarda o tesouro One Piece",
         "marinha": "nao",

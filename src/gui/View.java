@@ -21,12 +21,14 @@ public class View {
         Scanner scan = new Scanner(System.in);
 
         int v1, v2;
+        boolean continuar = true;
 
-        while (true) {
+        while (continuar) {
         	g = r.lerArquivos();
             System.out.println("Menu");
             System.out.print("1 - Listar Vértices \n");
             System.out.print("2 - Escolher uma rota \n");
+            System.out.println("3 - Sair");
             int op = scan.nextInt();
             switch (op) {
                 case 1:
@@ -65,6 +67,14 @@ public class View {
                     System.out.println();
                     System.out.format("Distancia total da viagem: %.2f dias \n", vertices.get(vertices.size() - 1).getDistancia());
                     break;
+                case 3:
+                	System.out.println("Saindo...");
+                	continuar = false;
+                	break;
+                default:
+                    System.out.println("Invalido");
+                    break;
+
             }
         }
 

@@ -30,8 +30,6 @@ public class Dijkstra {
 			this.caminhoMinimo = new ArrayList<>();
 			//this.percorridos = new HashMap<>();
 			this.naoPercorridos = new ArrayList<>();
-			//cada vertice do grafo eh iniciado com distancia infinita se não são a origem
-//			grafo.getArestas().stream().map(aresta -> (aresta.equals(destino)) ? percorridos.put(aresta, Double.POSITIVE_INFINITY): percorridos.put(aresta, 0.));
 			inicializarGrafo(g, origem);
 		}
 		
